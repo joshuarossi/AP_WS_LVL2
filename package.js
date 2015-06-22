@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'mjr:level-two',
+  name: 'mjr:AP-WS-LVL2',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: "API client to access Bitfinex Level 2 (Orderbook) Market Data via Alphapoint's Websocket Feed",
