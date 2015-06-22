@@ -22,7 +22,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('mjr:level-two');
+  api.use('mjr:ap-ws-lvl2');
   api.addFiles('level-two-tests.js');
 });
 Npm.depends({websocket: "1.0.19"});
