@@ -11,8 +11,8 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use(['minimongo', 'mongo', 'templating'], 'client');
-  api.use(['mongo', 'livedata'], ['server']);
+  api.use(['minimongo@1.0.8', 'mongo@1.1.0', 'templating@1.1.1'], 'client');
+  api.use(['mongo@1.1.0', 'livedata@1.0.13'], ['server']);
   api.addFiles(['common.js']);
   api.addFiles(['level-two.js'], 'server');
   api.export(['Bids', 'Asks']);
