@@ -2,7 +2,7 @@ Package.describe({
   name: 'mjr:level-two',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'API client to access Bitfinex Level 2 (Orderbook) Market Data via Alphapoint's Websocket Feed',
+  summary: "API client to access Bitfinex Level 2 (Orderbook) Market Data via Alphapoint's Websocket Feed",
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/joshuarossi/AP_WS_LVL2.git',
   // By default, Meteor will default to using README.md for documentation.
